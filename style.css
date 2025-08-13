@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    align-items: center;
+    background-color: rgb(255, 240, 240);
+}
+.logo{
+    font-size: 35px;
+    font-weight: 900;
+    padding-right: 10px; 
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.header-nav ul {
+    display: flex;
+    gap: 20px;
+}
+.header-nav ul li a{
+    font-size: 26px;
+    color: #1f1d1d;
+}
+.nav-button {
+    display: flex;
+    gap: 20px;
+}
+.nav-button button{
+    font-size: 22px;
+    padding: 2px 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #0091ff;
+    color: #fff;
+}
+
+
+.hero-section-container{
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+}
+.hero-section-title{
+    flex: 1 1 400px;
+}
+.hero-section-title h1{
+    text-align: center; 
+    font-size: 5rem;
+}
+.hero-section-title p{
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.hero-section-button {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   
+}
+.hero-section-button button {
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #0091ff; 
+}
+.hero-section-button button a{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.hero-section-container img{
+    flex: 1 1 400px;
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+}
+
+
+.services {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+}
+.services h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.services-container {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.services-type {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: left;
+}
+.services-type img {
+    border-radius: 8px;
+    width: 100%;
+}
+.services-type h3 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.services-type p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+footer{
+    padding: 1rem ;
+    text-align: center;
+    background-color: rgb(255, 240, 240);
+    color: #333;
+    font-size: 1.5rem;
+}

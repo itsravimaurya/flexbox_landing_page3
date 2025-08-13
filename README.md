@@ -42,5 +42,5 @@ Open index.html in your browser
 Customize the content, colors, and icons as needed
 
 
-📌 Purpose
+##📌 Purpose
 This project serves as practice for mastering HTML & CSS fundamentals, with a focus on responsive layouts using Flexbox. It demonstrates skills essential for building modern, accessible, and adaptable web pages.
